@@ -1,0 +1,41 @@
+
+if "%1" == ""(
+	echo ---+ z03-06 режим файла
+	echo ---++ режим = {создать, удалить}
+	echo ---++ файл = имя файла
+	goto endFile
+)
+
+
+if "%2" == ""(
+	echo ---+ не задано имя файла
+	goto endFile
+)
+
+if "%1" == "удалить"(
+	if not exist %2 (
+		echo ---+ файл %2 не найден
+		goto endFile
+	)
+	else (
+		echo ---+ файл %2 удален
+		del %2
+		goto endFile
+	)
+)
+
+if "%1" == "создать"(
+	if exist %2 (
+		echo ---+ файл %2 уже есть
+		goto endFile
+	)
+	else (
+		type nul> %2
+		echo ---+ файл %2 создан
+		goto endFile
+	)
+)
+
+echo ---+ режим задан не корректно
+
+:endFile
