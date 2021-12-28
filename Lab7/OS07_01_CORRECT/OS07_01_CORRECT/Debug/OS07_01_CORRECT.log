@@ -1,0 +1,4 @@
+﻿  OS07_01_CORRECT.cpp
+D:\Study\Practice\OSSP\Lab7\OS07_01_CORRECT\OS07_01_CORRECT\OS07_01_CORRECT.cpp(21,26): warning C4244: аргумент: преобразование "float" в "DWORD", возможна потеря данных
+D:\Study\Practice\OSSP\Lab7\OS07_01_CORRECT\OS07_01_CORRECT\OS07_01_CORRECT.cpp(21,61): warning C4244: аргумент: преобразование "float" в "DWORD", возможна потеря данных
+  OS07_01_CORRECT.vcxproj -> D:\Study\Practice\OSSP\Lab7\OS07_01_CORRECT\Debug\OS07_01_CORRECT.exe

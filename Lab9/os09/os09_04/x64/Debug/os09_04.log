@@ -1,0 +1,6 @@
+﻿  OS09_04.cpp
+D:\Study\Practice\OSSP\Lab9\os09\os09_04\OS09_04.cpp(56,21): warning C4018: <: несоответствие типов со знаком и без знака
+D:\Study\Practice\OSSP\Lab9\os09\os09_04\OS09_04.cpp(116,23): warning C4018: <: несоответствие типов со знаком и без знака
+D:\Study\Practice\OSSP\Lab9\os09\os09_04\OS09_04.cpp(64,9): warning C4101: dwWaitStatus: неиспользованная локальная переменная
+D:\Study\Practice\OSSP\Lab9\os09\os09_04\OS09_04.cpp(131): warning C4715: printWatchRowFileTxt: значение возвращается не при всех путях выполнения
+  os09_04.vcxproj -> D:\Study\Practice\OSSP\Lab9\os09\x64\Debug\OS09_04.exe

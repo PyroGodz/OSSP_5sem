@@ -1,0 +1,12 @@
+--------------------TASK1--------------------
+wmic memorychip get banklabel, capacity, speed, manufacturer
+wmic memcache get purpose, maxcachesize
+
+--------------------TASK2--------------------
+Get-WmiObject -Class "Win32_PhysicalMemory"
+
+--------------------TASK3--------------------
+systeminfo | findstr "памят"
+
+--------------------TASK4--------------------
+perfmon
